@@ -1,0 +1,80 @@
+#card {
+  background-color: aqua;
+  width: 200px;
+  height: 100px;
+}
+
+#card2 {
+  background-color: brown;
+  max-width: 50%;
+  height: 100px;
+}
+
+#card2 div {
+  background-color: blue;
+  width: 100%;
+}
+
+#card3 {
+  background-color: brown;
+  min-width: 200px;
+  width: 50px;
+}
+
+#container {
+  background-color: black;
+  height: 50dvh;
+  width: 100dvw;
+}
+
+#card4 {
+  background-color: bisque;
+  width: 50%;
+  height: 100%;
+}
+
+#link1 {
+  background-color: yellow;
+  display: inline;
+}
+#link2 {
+  background-color: green;
+}
+#link3 {
+  display: block;
+}
+#inline,
+#block,
+#inline-block {
+  width: 50px;
+  height: 50px;
+  background-color: blanchedalmond;
+}
+
+#inline {
+  display: inline;
+}
+#block {
+  display: block;
+}
+#inline-block {
+  display: inline-block;
+}
+#flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: end;
+}
+.flex-card {
+  width: 100px;
+  height: 200px;
+  background-color: crimson;
+  color: white;
+  font-size: 28px;
+  margin: 10px;
+}
+
+.flex-card:nth-child(2) {
+  height: 100px;
+}
